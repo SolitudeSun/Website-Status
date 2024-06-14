@@ -2,7 +2,7 @@
 
 一个基于 UptimeRobot API 的在线状态面板
 
-![IMSYY-站点监测.png](https://s1.ax1x.com/2023/07/20/pCHnLLt.png)
+![站点监测.png](https://s1.ax1x.com/2023/07/20/pCHnLLt.png)
 
 ## 特色
 
@@ -48,4 +48,5 @@ pnpm build
 
 ## 鸣谢
 
+ - [site-status](https://github.com/imsyy/site-status) 原作者，原项目
  - [uptime-status](https://github.com/yb/uptime-status) 基于此项目进行修改
