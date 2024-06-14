@@ -2,7 +2,7 @@
 
 一个基于 UptimeRobot API 的在线状态面板
 
-![站点监测.png](https://s21.ax1x.com/2024/06/14/pkdUWKf.png)
+![站点监测.png](https://s21.ax1x.com/2024/06/14/pkdax6P.png)
 
 ## 特色
 
