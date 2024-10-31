@@ -74,7 +74,7 @@ const Header = observer(({ getSiteData }) => {
                   {status.siteState === "loading" ? (
                     <span>数据加载中...</span>
                   ) : status.siteState === "wrong" ? (
-                    <span>这可能是临时性问题，请刷新后重试</span>
+                    <span>这可能是暂时性问题，请稍后重试</span>
                   ) : (
                     <div className="time">
                       <span className="last-update">

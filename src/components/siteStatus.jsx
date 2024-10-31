@@ -142,7 +142,7 @@ const SiteStatus = ({ siteData, days, status }) => {
         ) : (
           <Result
             status="error"
-            title="调用超限或请求错误，请刷新后重试"
+            title="刷新过多或请求失败，请稍后重试"
             extra={
               <Button
                 type="primary"
