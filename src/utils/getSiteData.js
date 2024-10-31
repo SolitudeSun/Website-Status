@@ -111,7 +111,7 @@ const getMonitorsData = async (postdata, status) => {
 const dataProcessing = (data, dates) => {
   try {
     let siteSortArr = import.meta.env.VITE_SITE_SORT;
-    siteSortArr = siteSortArr.split(",").map(v => v.trim()).reverse();
+    siteSortArr = siteSortArr.split("，").map(v => v.trim()).reverse();
 
     data = data.sort((v1, v2) => {
       const i1 = siteSortArr.indexOf(v1.friendly_name.trim()) + 1;
